@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { TravellerProfile, Home, Travellers } from './pages';
 import Menu from './sections/Menu';
 
+
+// TODO: SEPARATE CSS SHOULD BE ADDED FOR COMPONENTS
 class App extends React.Component {
 
     render() {
